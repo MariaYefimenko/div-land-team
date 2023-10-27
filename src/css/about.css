@@ -1,1 +1,20 @@
+.about-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
 
+.about-title {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: -0.03em;
+    margin-bottom: 40px;
+}
+
+.about-text {
+    color: rgba(252, 249, 249, 0.40);
+    font-size: 14px;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    margin-bottom: 20px;
+}
