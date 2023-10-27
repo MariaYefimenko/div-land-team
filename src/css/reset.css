@@ -1,4 +1,12 @@
-/* Reset styles */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -7,20 +15,38 @@ h5,
 h6,
 p {
   margin: 0;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 p:last-child {
   margin-bottom: 0;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 a {
   color: currentColor;
+  text-decoration: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
   text-decoration: none;
 }
 
