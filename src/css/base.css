@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  max-width: 375px;
+  max-width: 767px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -16,15 +16,15 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 1279px;
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .container {
-    max-width: 1120px;
+    max-width: 1440px;
     padding-left: 100px;
     padding-right: 100px;
   }
