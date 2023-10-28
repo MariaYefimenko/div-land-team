@@ -8,21 +8,21 @@ body {
 }
 
 .container {
-  max-width: 767px;
+  max-width: 375px;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 376px) {
   .container {
-    max-width: 1279px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1110px) {
   .container {
     max-width: 1440px;
     padding-left: 100px;
