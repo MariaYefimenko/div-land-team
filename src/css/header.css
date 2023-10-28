@@ -2,6 +2,26 @@
   padding: 20px 0;
 }
 
+.header-container {
+  display: flex;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+}
+
+.menu-list {
+  display: none;
+}
+
 .nav-list {
   display: flex;
   align-items: center;
@@ -18,4 +38,39 @@
 .nav-link:hover,
 .nav-link:focus {
   color: #747bff;
+}
+
+.contacts {
+  display: flex;
+}
+
+.social-links-list {
+  display: flex;
+  gap: 12px;
+}
+
+.social-list-icon {
+  fill: #FCF9F9;
+}
+
+.tel {
+  display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+@media screen and (min-width: 1110px) {
+  .container {
+    max-width: 1110px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
