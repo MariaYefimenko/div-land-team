@@ -184,14 +184,13 @@
 }
 
 .hero-header {
-    display: flex;
-    flex-direction: column;
+    display: block;
     padding-top: 94px;
     margin-left: 40px;    
 }
 
 .hero-title {
-    max-width: 518px;
+    width: 518px;
 }
 
 .hero-span-ukrainian {}
