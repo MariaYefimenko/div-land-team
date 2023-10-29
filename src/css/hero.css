@@ -3,26 +3,21 @@
     padding-bottom: 80px;
 }
 
-.container {
-}
+.container {}
 
 .hero-container {
     display: flex;
     flex-wrap: wrap;
-    row-gap: 40px;
     align-items: start;
 }
 
-.hero-container>(:last-child) {
-    gap: 0;
-}
-
-.hero-header {
+.hero-title {
     color: var(--white, #FCF9F9);
     font-size: 44px;
     line-height: 1.23;
     letter-spacing: -0.03em;
     max-width: 335px;
+    margin-bottom: 40px;
 }
 
 .hero-span-ukrainian {
@@ -35,11 +30,9 @@
     display: none;
 }
 
-.hero-handmade-svg {
-}
+.hero-handmade-svg {}
 
-.hero-handmade-text {
-}
+.hero-handmade-text {}
 
 .hero-btn {
     color: var(--white, #FCF9F9);
@@ -57,13 +50,14 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
     flex-shrink: 0;
     padding: 14px 36px;
-    margin-left: 70px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    margin-bottom: 40px;
+    margin-left: 70px;
 }
 
 .hero-btn:hover,
 .hero-btnn:focus {
-    border-color: var(--yellow, #ECD979);;
+    border-color: var(--yellow, #ECD979);
 }
 
 .hero-icon-btn {
@@ -71,7 +65,6 @@
 }
 
 .hero-picture {
-    gap: 0;
 }
 
 .hero-img {
@@ -91,7 +84,6 @@
     max-width: 768px;
 }
 
-
 .hero {
     padding-top: 106px;
     padding-bottom: 100px;
@@ -104,16 +96,14 @@
     position: relative;
 }
 
-.hero-header {
-    color: var(--white, #FCF9F9);
+.hero-title {
     font-size: 54px;
     line-height: 1.19;
     letter-spacing: -0.03em;
     max-width: 549px;
 }
 
-.hero-span-ukrainian {
-}
+.hero-span-ukrainian {}
 
 .hero-handmade {
     display: flex;
@@ -156,14 +146,10 @@
 
 .hero-icon-btn {}
 
-/* .hero-picrures {
-    display: flex;
-    align-items: flex-end;
-    gap: 143px;
-} */
-
-.hero-img {
+.hero-picrures {
 }
+
+.hero-img {}
 
 .hero-img-ukraine {
     display: flex;
@@ -191,17 +177,24 @@
 
 .hero-container {
     display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    align-items: start;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
 }
 
-.hero-header {}
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    padding-top: 94px;
+    margin-left: 40px;    
+}
+
+.hero-title {
+    max-width: 518px;
+}
 
 .hero-span-ukrainian {}
 
 .hero-handmade {
-    display: flex;
 }
 
 .hero-handmade-svg {}
@@ -212,14 +205,8 @@
 
 .hero-icon-btn {}
 
-.hero-img {
-    
-}
+.hero-img {}
 
 .hero-img-ukraine {
-    display: flex;
 }
 }
-
-
-
