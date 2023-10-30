@@ -1,5 +1,11 @@
+.about {
+    background-image: url(../img/background/bg-about-mobile.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
 .about-container {
-    padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -18,3 +24,57 @@
     letter-spacing: -0.04em;
     margin-bottom: 20px;
 }
+
+.about-img {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 376px) {
+    .about {
+        background-image: url(../img/background/bg-about-tablet.png);
+    }
+
+    .about-container {
+        padding-bottom: 100px;
+    }
+
+    .about-title {
+        font-size: 44px;
+    }
+
+    .about-text {
+        font-size: 16px;
+    }
+
+    .about-img {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    .about {
+        background-image: url(../img/background/bg-about-deskt.png);
+    background-position: right;
+    } 
+
+    .about-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 150px;
+    }
+
+    .about-container-min {
+        margin-right: 50px;
+    }
+
+    .about-text {
+        width: 436px;
+    }
+    .about-img {
+        margin-top: 0;
+    }
+}
+
+
+
