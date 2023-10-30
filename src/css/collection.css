@@ -4,91 +4,99 @@
   background-repeat: no-repeat;
   background-position: left 214px;
   background-size: auto 177px;
-  /* margin-top: 80px; */
   padding-bottom: 40px;
 }
+
 .collection_title{
- text-align: center;
+  text-align: center;
   margin-bottom: 40px;
   color: var(--white, #FCF9F9);
-  font-family: Manrope;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: 44px; /* 137.5% */
   letter-spacing: -0.96px;
 }
+
 .collection_menu{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .collection_img{
   border-radius: 4px;
   margin-bottom: 18px;
 }
+
 .collection_subtitle{
   overflow: hidden;
-color: var(--white, #FCF9F9);
-text-overflow: ellipsis;
-font-family: Manrope;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 14px; /* 100% */
-/* letter-spacing: 0.7px; */
-text-transform: uppercase;
-margin-bottom: 8px;
+  color: var(--white, #FCF9F9);
+  text-overflow: ellipsis;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 14px; /* 100% */
+  text-transform: uppercase;
+  margin-bottom: 8px;
 }
+
 .collection_text{
   color: rgba(252, 249, 249, 0.40);
-font-family: Manrope;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 14px; /* 100% */
-letter-spacing: 0.7px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px; /* 100% */
+  letter-spacing: 0.7px;
 }
+
 @media screen and (min-width: 768px) {
   .collection{
+    background-image: url(../img/background/bg-collection-tablet.png);
     background-size: auto 300px;
     padding-bottom: 100px;
   }
- .collection_title {
-font-size: 44px;
-line-height: 64px; /* 145.455% */
-letter-spacing: -1.32px;
+  .collection_title {
+    font-size: 44px;
+    line-height: 64px; /* 145.455% */
+    letter-spacing: -1.32px;
 
-  }
+}
   .collection_item{
     width: calc((100% - 20px) / 2);
   }
+
   .collection_img{
     width: 342px;
     height: 430px;
   }
+
   .collection_subtitle{
-  font-size: 18px;
-  line-height: 18px; /* 100% */
-  }
-  .collection_text{
-  font-size: 18px;
-  line-height: 18px; /* 100% */
+    font-size: 18px;
+    line-height: 18px; /* 100% */
   }
 
+  .collection_text{
+    font-size: 18px;
+    line-height: 18px; /* 100% */
+  }
 }
+
 @media screen and (min-width: 1110px) {
   .collection{
+    background-image: url(../img/background/bg-collection-deskt.png);
     padding-bottom: 150px;
   }
 
   .collection_menu{
     row-gap: 40px;
   }
+
   .collection_item{
     width: calc((100% - 40px) / 3);
   }
+
   .collection_img{
     width: 347px;
   }
