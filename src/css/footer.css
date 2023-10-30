@@ -1,25 +1,21 @@
 .footer {
     padding-top: 40px;
-    padding-bottom: 80px;
-    background-image: url(../img/background/bg-footer-mobile.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+    padding-bottom: 80px;   
 }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .footer {
-        background-image: url(../img/background/bg-footer-mobile.png);
-    }
+.container {
 }
-
-.container {}
 
 .footer-container {
     display: flex;
     flex-wrap: wrap;
+    /* background-image: url(../img/background/bg-footer-mobile.png);
+    background-position: top auto;
+    background-repeat: no-repeat;
+    background-size: auto; */
 }
+
+
 
 .footer-list {
     display: flex;
@@ -51,7 +47,108 @@
 
 .footer-span-ukrainian {
     color: var(--white, #ECD979);
-    font-size: 1.23;
-    line-height: 54px;
+    font-size: 44px;
+    line-height: 1.23;
     letter-spacing: -0.03em;
 }
+
+
+/* ===============ПЛАНШЕТ=============== */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-container {
+    background-image: url(../img/background/bg-footer-tablet.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.footer-list {
+    flex-wrap: nowrap;
+    gap: 25px;
+    margin-bottom: 0;
+}
+
+.list {}
+
+.footer-list-item {
+    flex-basis: auto;
+}
+
+.item {
+}
+
+.footer-link {}
+
+.link {}
+
+.footer-slogan {
+    padding-top: 80px;
+    max-width: 521px;
+    font-size: 54px;
+    line-height: 1.19;
+}
+
+.footer-span-ukrainian {
+    font-size: 54px;
+    line-height: 1.19;
+}
+}
+
+/* ===============ДЕСКТОП=============== */
+
+@media screen and (min-width: 1110px) {
+    .container {
+        max-width: 1110px;
+}
+
+.footer {
+}
+
+.footer-container {
+    background-image: url(../img/background/bg-footer-deskt.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.footer-list {
+    
+}
+
+.list {}
+
+.footer-list-item {
+    
+}
+
+.item {}
+
+.footer-link {}
+
+.link {}
+
+.footer-slogan {
+    padding-top: 117px;
+    max-width: 754px;
+    font-size: 64px;
+    line-height: 1.16;
+}
+
+.footer-span-ukrainian {
+    font-size: 64px;
+    line-height: 1.16;
+
+}
+}
+
