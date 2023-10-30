@@ -4,7 +4,8 @@
   background-repeat: no-repeat;
   background-position: left 214px;
   background-size: auto 177px;
-  margin-top: 80px;
+  /* margin-top: 80px; */
+  padding-bottom: 40px;
 }
 .collection_title{
  text-align: center;
@@ -52,6 +53,7 @@ letter-spacing: 0.7px;
 @media screen and (min-width: 768px) {
   .collection{
     background-size: auto 300px;
+    padding-bottom: 100px;
   }
  .collection_title {
 font-size: 44px;
@@ -76,7 +78,11 @@ letter-spacing: -1.32px;
   }
 
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1110px) {
+  .collection{
+    padding-bottom: 150px;
+  }
+
   .collection_menu{
     row-gap: 40px;
   }
