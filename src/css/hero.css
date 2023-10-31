@@ -3,8 +3,6 @@
     padding-bottom: 80px;
 }
 
-.container {}
-
 .hero-container {
     display: flex;
     flex-wrap: wrap;
