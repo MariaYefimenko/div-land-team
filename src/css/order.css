@@ -4,9 +4,25 @@
     background-image: url(../img/background/bg-order-tablet.png);
     background-position: left bottom;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 400px 430px;
             
         
+}
+
+.pre-order-img {
+    
+    background-image: url(../img/order/pre-order-mob-1x.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+@media (min-divice-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .pre-order-img {
+        background-image: url(../img/order/pre-order-mob-2x.jpg);
+    }
 }
 
 .order-mod {
@@ -134,6 +150,19 @@
             
         }
 
+        .pre-order-img {    
+            background-image: url(../img/order/pre-order-tablet-1x.jpg);
+            
+        }
+    
+        @media (min-divice-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .pre-order-img {
+                background-image: url(../img/order/pre-order-tablet-2x.jpg);
+            }
+        }
+
     .order {
         height: 1340px;
     }
@@ -191,7 +220,7 @@
 
     .order-girl-white {
         margin-right: 32px;
-        margin-bottom: 100px;
+       padding-bottom: 100px;
     }
 
     .order-img {
@@ -206,6 +235,19 @@
                 max-width: 1110px;
         
             }
+
+        .pre-order-img {
+            background-image: url(../img/order/pre-order-desktop-1x.jpg);
+
+        }
+
+        @media (min-divice-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+            .pre-order-img {
+                background-image: url(../img/order/pre-order-desktop-2x.jpg);
+            }
+        }
     .pre-order-img {
         height: 776px;
         
