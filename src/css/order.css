@@ -1,17 +1,8 @@
-@import url('./order.css');
 
-.pre-order-img-container {
-    min-width: 335px;
-}
-.pre-order-img {
-    width: 375px;
-}
 
-.order {
-    width: 335px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
+
+
+
 
 .order-mod {
     margin-top: 80px;
@@ -108,7 +99,7 @@
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.10);
         background-color: transparent;
-        margin: 0 auto;
+       
         
         
         
@@ -127,7 +118,9 @@
 }
 
 @media screen and (min-width: 375px) {
-    
+    .pre-order-img-container {
+        min-width: 335px;
+    }
 }
 
 @media screen and (min-width: 768px) {
