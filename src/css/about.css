@@ -5,11 +5,11 @@
     padding-bottom: 62px;
 }
 
-@media (min-resolution: 192dpi) {
+/* @media (min-resolution: 192dpi) {
     .about-container {
         background-image: url(../img/background/bg-about-mobile-2x.png);
     }
-}
+} */
 
 .about-title {
     font-size: 32px;
@@ -37,11 +37,11 @@
         padding-bottom: 50px;
     }
 
-@media (min-resolution: 192dpi) {
+/* @media (min-resolution: 192dpi) {
     .about-container {
         background-image: url(../img/background/bg-about-tablet-2x.png);
     }
-}
+} */
 
     .about-title {
         font-size: 44px;
@@ -66,11 +66,11 @@
         padding-bottom: 80px;
     }
 
-@media (min-resolution: 192dpi) {
+/* @media (min-resolution: 192dpi) {
     .about-container {
         background-image: url(../img/background/bg-about-deskt-2x.png);
     }
-}
+} */
 
     .about-container-text {
         margin-right: 50px;
