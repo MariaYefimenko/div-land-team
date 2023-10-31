@@ -1,11 +1,5 @@
 .footer {
-    padding-top: 40px;
-    padding-bottom: 80px;
-    background-image: url(../img/background/bg-footer-mobile.png);
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: auto;
-    height: 649px;
+    
 }
 
 .container {
@@ -14,6 +8,11 @@
 .footer-container {
     display: flex;
     flex-wrap: wrap;
+    background-image: url(../img/background/bg-footer-mobile.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 292px;
 }
 
 
@@ -22,7 +21,8 @@
     display: flex;
     flex-wrap: wrap;
     row-gap: 25px;
-    margin-bottom: 40px;   
+    margin-bottom: 40px;  
+    padding-top: 40px;
 }
 
 .list {}
@@ -62,16 +62,14 @@
     }
 
 .footer {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: 370px;
+}
+
+.footer-container {  
     background-image: url(../img/background/bg-footer-tablet.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: contain;
-}
-
-.footer-container {   
+    padding-bottom: 40px;
 
 }
 
@@ -95,7 +93,6 @@
 .link {}
 
 .footer-slogan {
-    padding-top: 80px;
     max-width: 521px;
     font-size: 54px;
     line-height: 1.19;
@@ -115,17 +112,18 @@
 }
 
 .footer {
-    height: 363px;
-    background-image: url(../img/background/bg-collection-deskt.png);
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: contain;
 }
 
 .footer-container {
+    background-image: url(../img/background/bg-footer-deskt.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 40px;
 }
 
 .footer-list {
+    /* padding-right: 602px; */
     
 }
 
