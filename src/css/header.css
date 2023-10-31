@@ -97,6 +97,10 @@
 }
 
 @media screen and (min-width: 1110px) {
+  .header {
+    padding-top: 22px;
+  }
+
   .menu-list {
     display: flex;
     justify-content: center;
@@ -137,7 +141,7 @@
   justify-content: space-between;
   transform: translateY(-100%);
   transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, pointer-events 0.3s ease;
-  
+
 
   background-color: #ECD979;
   background-image: url(../img/background/bg-open-menu-mobile.png);
