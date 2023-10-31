@@ -12,17 +12,15 @@
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto;
-    padding-bottom: 292px;
+    padding-bottom: 212px;
+    padding-top: 40px;
 }
-
-
 
 .footer-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 25px;
     margin-bottom: 40px;  
-    padding-top: 40px;
 }
 
 .list {}
@@ -44,6 +42,7 @@
     font-size: 44px;
     line-height: 1.23;
     letter-spacing: -0.03em;
+    margin-bottom: 80px;
 }
 
 .footer-span-ukrainian {
@@ -66,17 +65,16 @@
 
 .footer-container {  
     background-image: url(../img/background/bg-footer-tablet.png);
-    background-position: top right;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
     padding-bottom: 40px;
-
 }
 
 .footer-list {
     flex-wrap: nowrap;
     gap: 25px;
-    margin-bottom: 0;
+    margin-bottom: 80px;
 }
 
 .list {}
@@ -96,6 +94,7 @@
     max-width: 521px;
     font-size: 54px;
     line-height: 1.19;
+    margin-bottom: 0;
 }
 
 .footer-span-ukrainian {
@@ -116,15 +115,13 @@
 
 .footer-container {
     background-image: url(../img/background/bg-footer-deskt.png);
-    background-position: top right;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: auto;
-    padding-bottom: 40px;
+    background-size: contain;
 }
 
 .footer-list {
-    /* padding-right: 602px; */
-    
+    margin-bottom: 117px;
 }
 
 .list {}
@@ -140,7 +137,6 @@
 .link {}
 
 .footer-slogan {
-    padding-top: 117px;
     max-width: 754px;
     font-size: 64px;
     line-height: 1.16;
@@ -149,7 +145,6 @@
 .footer-span-ukrainian {
     font-size: 64px;
     line-height: 1.16;
-
 }
 }
 
