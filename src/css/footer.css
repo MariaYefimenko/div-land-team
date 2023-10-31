@@ -1,6 +1,11 @@
 .footer {
     padding-top: 40px;
-    padding-bottom: 80px;   
+    padding-bottom: 80px;
+    background-image: url(../img/background/bg-footer-mobile.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 649px;
 }
 
 .container {
@@ -9,10 +14,6 @@
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    /* background-image: url(../img/background/bg-footer-mobile.png);
-    background-position: top auto;
-    background-repeat: no-repeat;
-    background-size: auto; */
 }
 
 
@@ -63,13 +64,14 @@
 .footer {
     padding-top: 40px;
     padding-bottom: 40px;
-}
-
-.footer-container {
+    height: 370px;
     background-image: url(../img/background/bg-footer-tablet.png);
     background-position: top right;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
+}
+
+.footer-container {   
 
 }
 
@@ -113,13 +115,14 @@
 }
 
 .footer {
+    height: 363px;
+    background-image: url(../img/background/bg-collection-deskt.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .footer-container {
-    background-image: url(../img/background/bg-footer-deskt.png);
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: auto;
 }
 
 .footer-list {
