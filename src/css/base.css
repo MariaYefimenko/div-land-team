@@ -1,7 +1,6 @@
 html,
 body {
   font-family: 'Manrope', sans-serif;
-  font-weight: 400;
   font-size: 16px;
   background-color: #1C2225;
   color: #FCF9F9;
@@ -14,7 +13,7 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
@@ -24,8 +23,8 @@ body {
 
 @media screen and (min-width: 1110px) {
   .container {
-    max-width: 1440px;
-    padding-left: 100px;
-    padding-right: 100px;
+    max-width: 1110px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
