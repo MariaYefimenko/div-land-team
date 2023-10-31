@@ -8,7 +8,7 @@
             <source srcset="./img/order/pre-order-mob-1x.jpg 1x, ./img/order/pre-order-mob-2x.jpg 2x"
                 media="(max-width: 767px)">
 
-            <img class="order-img" src="./img/order/pre-order-desktop.jpg" alt="" width="375" height="550">
+            <img class="order-img" src="./img/order/pre-order-desktop.jpg" alt="" width="1272" height="776">
         </picture>
     </div>
 
@@ -20,28 +20,26 @@
         <form class="modal-form">
             <div class="modal-field">
                 <label for="order-name" class="order-label">
-                    <input type="text" name="order-name" placeholder="Enter your full name" class="order-input"
+                    <input type="name" name="order-name" placeholder="Enter your full name" class="order-input"
                         id="order-name">
                 </label>
             </div>
-            <form class="modal-form">
-                <div class="modal-field">
-                    <label for="order-email" class="order-label">
-                        <input type="email" name="order-email" placeholder="Enter your email" class="order-input"
-                            id="order-email">
-                    </label>
-                </div>
+            <div class="modal-field">
+                <label for="order-email" class="order-label">
+                    <input type="email" name="order-email" placeholder="Enter your email" class="order-input"
+                        id="order-email">
+                </label>
+            </div>
 
-                <div class="modal-comment">
-                    <textarea name="user-comment" id="user-comment" class="modal-textarea"
-                        placeholder="Comments"></textarea>
-                </div>
-
-            </form>
+            <div class="modal-comment">
+                <textarea name="user-comment" id="user-comment" class="modal-textarea"
+                    placeholder="Comments"></textarea>
+            </div>
             <div class="order-btn">
                 <button class="order-form-btn" type="submit">SEND <svg class="order-btn-icon" width="26" height="10">
                         <use href="../img/symbol-defs.svg#icon-arrow-button"></use>
                     </svg></button>
             </div>
+        </form>
     </div>
 </section>

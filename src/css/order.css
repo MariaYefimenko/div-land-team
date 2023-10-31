@@ -16,7 +16,6 @@
 .modal-order {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 40px;
 
 }
@@ -42,7 +41,6 @@
 .modal-comment {
     width: 100%;
 
-    
 }
 
 
@@ -69,8 +67,6 @@
         letter-spacing: -0.03em;
         width: 335px;
         margin: 0 auto;
-        
-        
 }
 
 .order-input {
