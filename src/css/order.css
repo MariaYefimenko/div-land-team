@@ -9,7 +9,7 @@
         
 }
 
-.pre-order-img {
+.pre-order {
     
     background-image: url(../img/order/pre-order-mob-1x.jpg);
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 @media (min-divice-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .pre-order-img {
+    .pre-order {
         background-image: url(../img/order/pre-order-mob-2x.jpg);
     }
 }
@@ -236,7 +236,7 @@
         
             }
 
-        .pre-order-img {
+        .pre-order {
             background-image: url(../img/order/pre-order-desktop-1x.jpg);
 
         }
@@ -253,11 +253,5 @@
         
     }
 
-    @media (min-divice-pixel-ratio: 2),
-    (min-resolution: 192dpi),
-    (min-resolution: 2dppx) {
-        .pre-order-img {
-        
-        }
-    }
+   
 }
