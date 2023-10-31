@@ -1,5 +1,5 @@
 <section class="pre-order-img">
-    <div class="container pre-order-img-container">
+    <div class="pre-order-img-container">
         <picture class="order-img">
             <source srcset="./img/order/pre-order-desktop-1x.jpg 1x, ./img/order/pre-order-desktop-2x.jpg 2x"
                 media="(min-width: 1110px)">
@@ -15,12 +15,12 @@
 </section>
 
 <section class="order-mod">
-    <div class="modal-order">
+    <div class="modal-order pre-order-img-container">
         <p class="modal-title">Your order<span> is our priority: Personalized approach and quality of service</span></p>
         <form class="modal-form">
             <div class="modal-field">
                 <label for="order-name" class="order-label">
-                    <input type="name" name="order-name" placeholder="Enter your full name" class="order-input"
+                    <input type="text" name="order-name" placeholder="Enter your full name" class="order-input"
                         id="order-name">
                 </label>
             </div>
@@ -36,12 +36,12 @@
                     <textarea name="user-comment" id="user-comment" class="modal-textarea"
                         placeholder="Comments"></textarea>
                 </div>
-                <div class="order-btn">
-                    <button class="order-form-btn" type="submit">SEND <svg class="order-btn-icon" width="26"
-                            height="10">
-                            <use href="../img/symbol-defs.svg#icon-arrow-button"></use>
-                        </svg></button>
-                </div>
+
             </form>
+            <div class="order-btn">
+                <button class="order-form-btn" type="submit">SEND <svg class="order-btn-icon" width="26" height="10">
+                        <use href="../img/symbol-defs.svg#icon-arrow-button"></use>
+                    </svg></button>
+            </div>
     </div>
 </section>

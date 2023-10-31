@@ -1,5 +1,7 @@
 
-
+.pre-order-img-container {
+    margin: 0 auto;
+}
 
 .order-mod {
     margin-top: 80px;
@@ -14,6 +16,8 @@
 .modal-order {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
 
 }
 
@@ -28,16 +32,17 @@
 }
 
 .modal-field {
-    width: 335px;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+    
     
 }
 
 .modal-comment {
     width: 100%;
 
-    margin-bottom: 40px;
+    
 }
 
 
@@ -63,9 +68,9 @@
         line-height: 1.38;
         letter-spacing: -0.03em;
         width: 335px;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 40px;
+        margin: 0 auto;
+        
+        
 }
 
 .order-input {
