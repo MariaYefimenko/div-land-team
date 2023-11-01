@@ -7,6 +7,10 @@
   padding-bottom: 40px;
 }
 
+.collection .container{
+  padding-top: 18px;
+  padding-bottom: 80px;
+}
 .collection_title{
   text-align: center;
   margin-bottom: 40px;
@@ -57,6 +61,11 @@
     background-size: auto 300px;
     padding-bottom: 100px;
   }
+  .collection .container{
+    padding-top: 50px;
+    padding-bottom: 100px;
+  }
+
   .collection_title {
     font-size: 44px;
     line-height: 64px; /* 145.455% */
@@ -86,6 +95,10 @@
 @media screen and (min-width: 1110px) {
   .collection{
     background-image: url(../img/background/bg-collection-deskt.png);
+    padding-bottom: 150px;
+  }
+  .collection .container{
+    padding-top: 70px;
     padding-bottom: 150px;
   }
 
