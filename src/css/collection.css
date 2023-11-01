@@ -49,8 +49,7 @@
 @media screen and (min-width: 768px) {
   .collection{
     background-image: url(../img/background/bg-collection-tablet.png);
-    background-size: 135px 240px;
-    background-position-y: 325px;
+    background-position-y: 260px;
     padding-top: 50px;
     padding-bottom: 100px;
   }
@@ -66,7 +65,7 @@
   }
 
   .collection_img{
-    /* width: 342px; */
+    width: 100%;
     height: 430px;
   }
 
@@ -87,7 +86,8 @@
 @media screen and (min-width: 1110px) {
   .collection{
     background-image: url(../img/background/bg-collection-deskt.png);
-    background-position-y: 350px;
+    background-position-y: 290px;
+    background-size: auto;
     padding-top: 70px;
     padding-bottom: 150px;
   }
