@@ -2,21 +2,15 @@
   display: block;
   background-image: url(../img/background/bg-collection-mobile.png);
   background-repeat: no-repeat;
-  background-position: left 214px;
-  background-size: auto 177px;
-  padding-bottom: 40px;
-}
-
-.collection .container{
+  background-position: left 330px;
   padding-top: 18px;
   padding-bottom: 80px;
 }
+
 .collection_title{
   text-align: center;
   margin-bottom: 40px;
-  color: var(--white, #FCF9F9);
   font-size: 32px;
-  font-style: normal;
   font-weight: 500;
   line-height: 44px; /* 137.5% */
   letter-spacing: -0.96px;
@@ -36,10 +30,7 @@
 
 .collection_subtitle{
   overflow: hidden;
-  color: var(--white, #FCF9F9);
-  text-overflow: ellipsis;
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 14px; /* 100% */
   text-transform: uppercase;
@@ -58,32 +49,33 @@
 @media screen and (min-width: 768px) {
   .collection{
     background-image: url(../img/background/bg-collection-tablet.png);
-    background-size: auto 300px;
-    padding-bottom: 100px;
-  }
-  .collection .container{
+    background-size: 135px 240px;
+    background-position-y: 325px;
     padding-top: 50px;
     padding-bottom: 100px;
   }
-
+  
   .collection_title {
     font-size: 44px;
     line-height: 64px; /* 145.455% */
     letter-spacing: -1.32px;
-
 }
+
   .collection_item{
     width: calc((100% - 20px) / 2);
   }
 
   .collection_img{
-    width: 342px;
+    /* width: 342px; */
     height: 430px;
   }
 
   .collection_subtitle{
     font-size: 18px;
     line-height: 18px; /* 100% */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 
   .collection_text{
@@ -95,12 +87,11 @@
 @media screen and (min-width: 1110px) {
   .collection{
     background-image: url(../img/background/bg-collection-deskt.png);
-    padding-bottom: 150px;
-  }
-  .collection .container{
+    background-position-y: 350px;
     padding-top: 70px;
     padding-bottom: 150px;
   }
+  
 
   .collection_menu{
     row-gap: 40px;
@@ -111,6 +102,6 @@
   }
 
   .collection_img{
-    width: 347px;
+    /* width: 347px; */
   }
 }
