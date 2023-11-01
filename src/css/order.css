@@ -3,14 +3,9 @@
     background-image: url(../img/background/bg-order-tablet.png);
     background-position: left bottom;
     background-repeat: no-repeat;
-<<<<<<< Updated upstream
     background-size: 400px 430px;   
 }
-=======
-    background-size: 400px 430px;
-}
 
->>>>>>> Stashed changes
 .pre-order-img {
     height: 550px;
 }
@@ -21,10 +16,7 @@
     background-position: center;
     margin: 0 auto;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 /* @media (min-divice-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
@@ -32,23 +24,18 @@
         background-image: url(../img/order/pre-order-mob-2x.jpg);
     }
 } */
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 .order-mod {
     margin-top: 80px;
     margin-bottom: 80px;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 .modal-order {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
+
 .modal-form {
     width: 100%;
     display: flex;
@@ -57,22 +44,17 @@
     justify-content: center;
     gap: 20px;
 }
+
 .modal-field {
     width: 100%;
     max-width: 335px;
-<<<<<<< Updated upstream
     margin: 0 auto; 
-=======
-    margin: 0 auto;
->>>>>>> Stashed changes
 }
+
 .modal-comment {
     width: 100%;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 .modal-textarea {
     width: 100%;
     height: 196px;
@@ -84,22 +66,16 @@
     margin-left: auto;
     margin-right: auto;
 }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 .modal-title {
     color: var(--white, #ECD979);
     font-size: 32px;
     font-weight: 500;
     line-height: 1.38;
     letter-spacing: -0.03em;
-<<<<<<< Updated upstream
-    width: 335px;
-=======
     min-width: 335px;
->>>>>>> Stashed changes
 }
+
 .order-input {
     width: 100%;
     border-radius: 15px;
@@ -107,9 +83,11 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
     padding: 14px 16px;
 }
+
 .order-btn {
     margin: 0 auto;
 }
+
 .order-form-btn {
     min-width: 145px;
     height: 49px;
@@ -127,39 +105,23 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: transparent;
 }
-<<<<<<< Updated upstream
-.order-form-btn:hover, 
-=======
 
-.order-form-btn:hover,
->>>>>>> Stashed changes
+.order-form-btn:hover, 
 .order-form-btn:focus {
     border: 1px solid var(--yellow, #ECD979);
 }
+
 .order-btn-icon {
     fill: var(--yellow, #ECD979);
 }
+
 .modal-title span {
     color: var(--white, #FCF9F9);
 }
+
 .order-girl-white {
     display: none;
 }
-<<<<<<< Updated upstream
-/*-----------Tablet--------*/
-@media screen and (min-width: 768px) {
-    .pre-order {
-    background-image: url(../img/order/pre-order-tablet-1x.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    margin: 0 auto;
-    }
-    .pre-order-img {
-        height: 776px;  
-    }
-    
-        /* @media (min-divice-pixel-ratio: 2),
-=======
 
 /*-----------Tablet--------*/
 
@@ -183,17 +145,6 @@
                 background-image: url(../img/order/pre-order-tablet-2x.jpg);
             }
         } */
-<<<<<<< Updated upstream
-    
-    .modal-order {
-        margin-bottom: 100px; 
-    }
-    
-    .order-mod {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        }
-=======
 
     .modal-order {
         margin-bottom: 100px;
@@ -204,10 +155,10 @@
         margin-bottom: 100px;
     }
 
->>>>>>> Stashed changes
     .order-girl-white {
         display: block;
     }
+
     .modal-title {
         width: 542px;
         font-size: 44px;
@@ -215,30 +166,27 @@
         line-height: 1.32;
         letter-spacing: -0.03em;
     }
+
     .modal-form {
         justify-content: start;
         width: 508px;
     }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     .modal-field {
         width: 100%;
         max-width: 508px;
     }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     .modal-textarea {
         width: 100%;
     }
+
     .order-form-btn {
         min-width: 168px;
         height: 50px;
         padding: 14px 39px;
     }
+
     .order-girl-white {
         padding-bottom: 100px;
         background-image: url(../img/background/bg-order-tablet.png);
@@ -246,53 +194,39 @@
         background-repeat: no-repeat;
         background-position-y: 115px;
     }
+
     .order-img {
         margin-left: auto;
         width: 648px;
     }
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
     .order-btn {
         margin: 0;
     }
 }
-<<<<<<< Updated upstream
-/*----------Desktop-----------*/
-=======
 
-/*----------Desktop-----------*/
+/*------------------Desktop---------------*/
 
 
->>>>>>> Stashed changes
 @media screen and (min-width: 1110px) {
     .pre-order {
         background-image: url(../img/order/pre-order-desktop-1x.jpg);
         min-width: 1110px;
     }
-<<<<<<< Updated upstream
-        /* @media (min-divice-pixel-ratio: 2),
-=======
 
     /* @media (min-divice-pixel-ratio: 2),
->>>>>>> Stashed changes
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
             .pre-order-img {
                 background-image: url(../img/order/pre-order-desktop-2x.jpg);
             }
         } */
-<<<<<<< Updated upstream
-=======
 
-
->>>>>>> Stashed changes
     .order {
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
-<<<<<<< Updated upstream
+
     }
     .order-img {
         display: block;
@@ -304,8 +238,6 @@
         background-size: 300px 490px;
         
     }
-=======
-    }
 
     .order-img {
         display: block;
@@ -317,5 +249,4 @@
         background-image: url(../img/background/bg-order-desk.png);
         background-size: 300px 490px;
     }
->>>>>>> Stashed changes
 }
