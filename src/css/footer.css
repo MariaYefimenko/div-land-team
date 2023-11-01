@@ -1,0 +1,127 @@
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(../img/background/bg-footer-mobile.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding-bottom: 212px;
+    padding-top: 40px;
+}
+
+.footer-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-bottom: 40px;  
+}
+
+.footer-list-item {
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    flex-basis: 50%;
+}
+
+.footer-slogan {
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+    margin-bottom: 80px;
+}
+
+.footer-span-ukrainian {
+    color: var(--white, #ECD979);
+    font-size: 44px;
+    line-height: 1.23;
+    letter-spacing: -0.03em;
+}
+
+/* @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/background/bg-footer-mobile-2x.png);
+    }
+} */
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+.footer-container {  
+    background-image: url(../img/background/bg-footer-tablet.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 40px;
+}
+
+.footer-list {
+    flex-wrap: nowrap;
+    gap: 25px;
+    margin-bottom: 80px;
+}
+
+.footer-list-item {
+    flex-basis: auto;
+}
+
+.footer-slogan {
+    max-width: 521px;
+    font-size: 54px;
+    line-height: 1.19;
+    margin-bottom: 0;
+}
+
+.footer-span-ukrainian {
+    font-size: 54px;
+    line-height: 1.19;
+}
+}
+
+/* @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/background/bg-footer-tablet-2x.png);
+    }
+} */
+
+@media screen and (min-width: 1110px) {
+    .container {
+        max-width: 1110px;
+}
+
+.footer-container {
+    background-image: url(../img/background/bg-footer-deskt.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 280px 340px;
+}
+
+.footer-list {
+    margin-bottom: 117px;
+}
+
+.footer-slogan {
+    max-width: 754px;
+    font-size: 64px;
+    line-height: 1.16;
+}
+
+.footer-span-ukrainian {
+    font-size: 64px;
+    line-height: 1.16;
+}
+}
+
+/* @media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .footer-container {
+        background-image: url(../img/background/bg-footer-deskt-2x.png);
+    }
+} */
+
