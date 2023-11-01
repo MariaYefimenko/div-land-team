@@ -9,10 +9,13 @@
         
 }
 
+
 .pre-order-img {
     width: 100%;
     height: 550px;
-;
+
+}
+.pre-order {
     background-image: url(../img/order/pre-order-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -22,9 +25,13 @@
 @media (min-divice-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
+
     .pre-order-img {
+
+    .pre-order {
         background-image: url(../img/order/pre-order-mob-2x.jpg);
     }
+}
 }
 
 .order-mod {
@@ -232,12 +239,11 @@
         margin-left: auto;
     }
 
+
     .order-btn {
         margin: 0;
     }
 
-
-    
 }
 @media screen and (min-width: 1110px) {
         .pre-order-img-container {
