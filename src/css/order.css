@@ -1,6 +1,6 @@
 
-.pre-order-img-container {
-    margin: 0 auto;
+.white-girl-container {
+   
     background-image: url(../img/background/bg-order-tablet.png);
     background-position: left bottom;
     background-repeat: no-repeat;
@@ -19,6 +19,7 @@
     background-image: url(../img/order/pre-order-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     margin: 0 auto;
 }
 
@@ -26,13 +27,11 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
 
-    .pre-order-img {
-
     .pre-order {
         background-image: url(../img/order/pre-order-mob-2x.jpg);
     }
 }
-}
+
 
 .order-mod {
     margin-top: 80px;
@@ -158,11 +157,17 @@
 @media screen and (min-width: 768px) {
         .pre-order-img-container {
             max-width: 768px;
-            
-            
+            margin-left: 0;
+         
         }
 
-        .pre-order-img {    
+        .pre-order-img {
+            width: 100%;
+            height: 776px;
+        
+        }
+
+        .pre-order {    
             background-image: url(../img/order/pre-order-tablet-1x.jpg);
             
         }
@@ -170,19 +175,15 @@
         @media (min-divice-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            .pre-order-img {
+            .pre-order {
                 background-image: url(../img/order/pre-order-tablet-2x.jpg);
             }
         }
 
-    .order {
-        height: 1340px;
-    }
-        
 
     
     .modal-order {
-        width: 958px;
+        
         margin-bottom: 100px;
                 
     }
@@ -231,7 +232,7 @@
     }
 
     .order-girl-white {
-        margin-right: 32px;
+       
        padding-bottom: 100px;
     }
 
@@ -243,6 +244,8 @@
     .order-btn {
         margin: 0;
     }
+
+    
 
 }
 @media screen and (min-width: 1110px) {
@@ -267,6 +270,19 @@
         height: 776px;
         
     }
+
+    .order {
+        width: 1080px;
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+         
+    }
+
+    .modal-order container {
+        display: block
+    }
+    ;
 
    
 }
