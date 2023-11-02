@@ -2,7 +2,7 @@
     background-image: url(../img/order/pre-order-mob-1x.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     height: 550px;
 }
 
@@ -125,6 +125,14 @@
     display: none;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .pre-order {
+        background-image: url(../img/order/pre-order-mob-2x.jpg);
+    }
+}
+
 /*-----------Tablet--------*/
 
 @media screen and (min-width: 768px) {
@@ -132,7 +140,7 @@
         background-image: url(../img/order/pre-order-tablet-1x.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        /* background-size: contain; */
         height: 776px;
     }
 
@@ -143,10 +151,6 @@
         background-size: 300px 490px;
         padding-top: 100px;
         padding-bottom: 180px;
-    }
-
-    .modal-order {
-        margin-bottom: 100px;
     }
 
     .order-girl-white {
@@ -160,6 +164,10 @@
         font-weight: 500;
         line-height: 1.32;
         letter-spacing: -0.03em;
+    }
+
+    .modal-order {
+        margin-bottom: 100px;
     }
 
     .modal-form {
@@ -193,22 +201,32 @@
     }
 }
 
-/*------------------Desktop---------------*/
+@media screen and (min-width: 768px) and (min-resolution: 192dpi),
+screen and (min-width: 768px) and (min-resolution: 2dppx),
+screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .pre-order {
+        background-image: url(../img/order/pre-order-tablet-2x.jpg);
+    }
+}
 
+/*------------------Desktop---------------*/
 
 @media screen and (min-width: 1110px) {
     .pre-order {
         background-image: url(../img/order/pre-order-desktop-1x.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        background-size: contain;
+        /* background-size: contain; */
     }
 
     .order {
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
+    }
 
+    .modal-order {
+        margin-bottom: 0;
     }
 
     .order-mod {
@@ -227,4 +245,12 @@
         display: block;
         width: 524px;
     }    
+}
+
+@media screen and (min-width: 1110px) and (min-resolution: 192dpi),
+screen and (min-width: 1110px) and (min-resolution: 2dppx),
+screen and (min-width: 1110px) and (-webkit-min-device-pixel-ratio: 2) {
+    .pre-order {
+        background-image: url(../img/order/pre-order-desktop-2x.jpg);
+    }
 }
