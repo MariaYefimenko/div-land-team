@@ -106,7 +106,7 @@
     background-image: url(../img/background/bg-footer-deskt.png);
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 280px 360px;
+    background-size: contain;
 }
 
 .footer-list {
