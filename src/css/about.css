@@ -25,6 +25,10 @@
     margin-bottom: 50px;
 }
 
+.about-img {
+    border-radius: 4px;
+}
+
 @media screen and (min-width: 768px) {
     .about {
         background-image: url(../img/background/bg-about-tablet.png);
