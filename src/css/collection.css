@@ -13,7 +13,7 @@
   font-size: 32px;
   font-weight: 500;
   line-height: 44px; /* 137.5% */
-  letter-spacing: -0.96px;
+  letter-spacing: -0.03em;
 }
 
 .collection_menu{
@@ -35,6 +35,7 @@
   line-height: 14px; /* 100% */
   text-transform: uppercase;
   margin-bottom: 8px;
+  letter-spacing: 0.05em;
 }
 
 .collection_text{
@@ -43,7 +44,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 14px; /* 100% */
-  letter-spacing: 0.7px;
+  letter-spacing: 0.05em;
 }
 
 @media screen and (min-width: 768px) {
@@ -57,7 +58,7 @@
   .collection_title {
     font-size: 44px;
     line-height: 64px; /* 145.455% */
-    letter-spacing: -1.32px;
+    letter-spacing: -0.03em;
 }
 
   .collection_item{
@@ -75,6 +76,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    letter-spacing: 0.05em;
   }
 
   .collection_text{
