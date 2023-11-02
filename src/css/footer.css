@@ -1,19 +1,23 @@
-.footer-container {
-    display: flex;
-    flex-wrap: wrap;
+.footer {
     background-image: url(../img/background/bg-footer-mobile.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: auto;
+    border-top: 1px solid rgba(252, 249, 249, 0.10);
     padding-bottom: 212px;
     padding-top: 40px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .footer-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 25px;
-    margin-bottom: 40px;  
+    margin-bottom: 40px;
 }
 
 .footer-list-item {
@@ -21,6 +25,15 @@
     line-height: 1.29;
     text-transform: uppercase;
     flex-basis: 50%;
+}
+
+.footer-link {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-link:focus,
+.footer-link:hover {
+    color: #ECD979;
 }
 
 .footer-slogan {
@@ -37,20 +50,23 @@
     letter-spacing: -0.03em;
 }
 
-/* @media (min-device-pixel-ratio: 2),
+@media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .footer-container {
+    .footer {
         background-image: url(../img/background/bg-footer-mobile-2x.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
     }
-} */
+}
 
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
     }
 
-.footer-container {  
+.footer {
     background-image: url(../img/background/bg-footer-tablet.png);
     background-position: right;
     background-repeat: no-repeat;
@@ -81,24 +97,16 @@
 }
 }
 
-/* @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .footer-container {
-        background-image: url(../img/background/bg-footer-tablet-2x.png);
-    }
-} */
-
 @media screen and (min-width: 1110px) {
     .container {
         max-width: 1110px;
-}
+    }
 
-.footer-container {
+.footer {
     background-image: url(../img/background/bg-footer-deskt.png);
-    background-position: right top;
+    background-position: right;
     background-repeat: no-repeat;
-    background-size: 280px 340px;
+    background-size: contain;
 }
 
 .footer-list {
@@ -116,12 +124,3 @@
     line-height: 1.16;
 }
 }
-
-/* @media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .footer-container {
-        background-image: url(../img/background/bg-footer-deskt-2x.png);
-    }
-} */
-
