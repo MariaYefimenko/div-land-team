@@ -230,7 +230,7 @@
   align-items: center;
 }
 
-.mob-address {
+.mob-tel {
   border-radius: 15px;
   border: 1px solid rgba(28, 34, 37, 0.1);
   display: flex;
@@ -241,16 +241,17 @@
   font-size: 12px;
   color: #1c2225;
   margin-bottom: 186px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mob-address:hover,
-.mob-address:focus {
+.mob-tel:hover,
+.mob-tel:focus {
   border-color: #fcf9f9;
   cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
-  .mob-address {
+  .mob-tel {
     padding: 14px 28px;
     font-size: 14px;
   }
@@ -270,10 +271,11 @@
   }
 }
 
-.mob-menu-item {
+.mob-menu-link {
   text-transform: uppercase;
   color: #1c2225;
   line-height: 18px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mob-menu-link:hover,
