@@ -1,24 +1,28 @@
-<section class="pre-order container">
+<section class="pre-order">
     <div class="pre-order-img">
     </div>
 </section>
 
 <section class="order-mod" id="order">
     <div class="order container">
+
+        <div class="modal-order ">
+
         <div class="modal-order container">
+
             <p class="modal-title">Your order<span> is our priority: Personalized approach and quality of service</span>
             </p>
             <form class="modal-form">
                 <div class="modal-field">
                     <label for="order-name" class="order-label">
-                        <input type="text" name="order-name" placeholder="Enter your full name" class="order-input"
-                            id="order-name">
+                        <input type="text" name="order-name" pattern="[A-Za-z0-9]" title="Enter your full name"
+                            placeholder="Enter your full name" class="order-input" id="order-name" required>
                     </label>
                 </div>
                 <div class="modal-field">
                     <label for="order-email" class="order-label">
-                        <input type="email" name="order-email" placeholder="Enter your email" class="order-input"
-                            id="order-email">
+                        <input type="email" name="order-email" pattern="@" title="Enter your email"
+                            placeholder="Enter your email" class="order-input" id="order-email" required>
                     </label>
                 </div>
                 <div class="modal-comment">
