@@ -1,10 +1,9 @@
-    .about {
+.about {
     background-image: url(../img/background/bg-about-mobile.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     padding-bottom: 62px;
 }
-
 
 .about-title {
     font-size: 32px;
@@ -22,7 +21,7 @@
     margin-bottom: 20px;
 }
 
-.about-text:last-child {
+.about-container-text {
     margin-bottom: 50px;
 }
 
@@ -33,7 +32,6 @@
         padding-bottom: 50px;
     }
 
-
     .about-title {
         font-size: 44px;
     }
@@ -42,7 +40,7 @@
         font-size: 16px;
     }
 
-    .about-text:last-child {
+    .about-container-text {
         margin-bottom: 40px;
     }
 }
@@ -54,7 +52,6 @@
         padding-bottom: 80px;
     }
     
-    
     .about-container {
         display: flex;
         align-items: center;
@@ -63,14 +60,11 @@
 
     .about-container-text {
         margin-right: 50px;
+        margin-bottom: 0;
     }
 
     .about-text {
         width: 436px;
-    }
-
-    .about-text:last-child {
-        margin-bottom: 0;
     }
 }
 
