@@ -126,7 +126,12 @@
     display: none;
   }
 
+  .address {
+    margin-right: 20px;
+  }
+
   .tel {
+    margin-right: 0;
     display: block;
     transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
