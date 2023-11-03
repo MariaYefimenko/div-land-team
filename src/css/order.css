@@ -4,6 +4,7 @@
     background-position: center;
     background-size: cover;
     height: 550px;
+    margin: 0 auto;
 }
 
 .order-mod {
@@ -216,7 +217,7 @@ screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         background-image: url(../img/order/pre-order-desktop-1x.jpg);
         background-repeat: no-repeat;
         background-position: center;
-        /* background-size: contain; */
+        max-width: 1440px;
     }
 
     .order {
